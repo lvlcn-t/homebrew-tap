@@ -4,24 +4,24 @@ cask "azctx" do
 
   on_macos do
     on_arm do
-      sha256 "991fb8cd1f87a292b4fbc08a37530e52b2d73ae588d818394cee5a859dccdb83"
+      sha256 "d45166267d22453a56ab7200ca96f8a64d2848530bce5b5ee54c419e74d2986a"
       url "https://github.com/lvlcn-t/azctx/releases/download/v#{version}/azctx_Darwin_arm64.tar.gz",
         verified: "github.com/lvlcn-t/azctx/releases/download"
     end
     on_intel do
-      sha256 "e69fb6eba49d137833a4318ee5962bc58a3e0bcea7bd84af348fd8d9d835dd06"
+      sha256 "38075a316ba624c2f5aa093fce3a04b6c4394882a77575852f5d96c592a03e5e"
       url "https://github.com/lvlcn-t/azctx/releases/download/v#{version}/azctx_Darwin_x86_64.tar.gz",
         verified: "github.com/lvlcn-t/azctx/releases/download"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b60e181b0f03c5c07fe096bef63ac125e0f70f62bce6ba897dc2fd050c302436"
+      sha256 "e2adb52bcaf83265d638fb8cfac3fe8f9ba019ae1b5ef469d5e2687a4f0cf996"
       url "https://github.com/lvlcn-t/azctx/releases/download/v#{version}/azctx_Linux_arm64.tar.gz",
         verified: "github.com/lvlcn-t/azctx/releases/download"
     end
     on_intel do
-      sha256 "d3ecb146c60db7792da587bdbc9b254740306619dba08e9f2c5314cf70639424"
+      sha256 "1994443175b0f20c3b47aafbc76dc9882c7be08e6806373c16b58d9a9ca4d854"
       url "https://github.com/lvlcn-t/azctx/releases/download/v#{version}/azctx_Linux_x86_64.tar.gz",
         verified: "github.com/lvlcn-t/azctx/releases/download"
     end
